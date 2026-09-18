@@ -1,0 +1,12 @@
+-- create
+CREATE TABLE countries(
+states_id  INT primary key,
+state_names varchar(30) not null
+);
+CREATE TABLE  JOBS(
+JOB_ID INT PRIMARY KEY,
+JOB_TITTLE VARCHAR(30),
+MIM_SALARY DECIMAL (8,5),
+MAX_SALARY DECIMAL (8,5),
+CONSTRAINT  CMS_MAX_SALARY CHECK (MAX_SALARY<=25000)
+); 
