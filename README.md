@@ -1,1 +1,1 @@
-# IC-2K25-83/DBMS/Shreya Mishra 
+# IC-2K25-83/Shreya Mishra 
